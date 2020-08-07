@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="design.css"/>
+    <title>Workout Generator Form</title>
+  </head>
+  <body class="formBody">
+    <div class="formBox">
+      <div class="formTitle">
+        <hr/>
+        <h2 class="formHeader">Answer the following questions for your personalized workout plan</h2>
+        <hr/>
+      </div>
+    <div class="formInfo">
+      <form id="workoutForm" action="index.html" method="post">
+       <p>Name:
+         <input type="text" name="name" size="15" placeholder="Name" required="required">
+      </p>
+       <p>Age:
+         <input type="number" name="age" placeholder="Age" required="required" min="15" max="100">
+       </p>
+       <p>Fitness Level:
+         <br>
+         <input type="radio" name="level" value="Beginner" required>Beginner
+         <input type="radio" name="level" value="Intermediate" required>Intermediate
+         <input type="radio" name="level" value="Expert" required>Expert
+      </p>
+      <p>Type of Workout:
+        <br>
+          <input type="radio" name="type" value="Upper" required>Upper Body
+          <input type="radio" name="type" value="Lower" required>Lower Body
+      </p>
+      <input id="clickMe" type="submit" name="submit" value="Get Started!" >
+      </form>
+    </div>
+    </div>
+    <footer>
+      <hr/>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>

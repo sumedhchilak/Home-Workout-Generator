@@ -1,0 +1,108 @@
+.formBox {
+  width: 46%;
+  margin-left: 27%;
+  margin-right: 27%;
+  text-align: left;
+  position: absolute;
+  margin-top: 120px;
+}
+.formHeader {
+  text-align: center;
+  color: rgb(144, 159, 177);
+}
+.formBody {
+  background-image: url(workout.jpg);
+}
+.formBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 60px;
+}
+.formInfo {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(144, 159, 177);
+  font-weight: 800;
+}
+.formTitle {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Poppins', sans-serif;
+}
+#resultsTitle {
+    font-size: 26px;
+    color: rgb(246, 247, 250);
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    left: 750px;
+    padding: 20px;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+  }
+  #workoutResults div{
+    padding: 30px;
+    background-color: rgba(50, 62, 80, 0.7);
+    color: rgb(246, 247, 250);
+    overflow-y: scroll;
+    border: 1px solid white;
+    border-radius: 4px;
+  }
+  #resultsPage {
+    background-image: url(work.jpg);
+    background-repeat: no-repeat;
+  }
+  #clickMe {
+    border: 2px solid rgb(157, 176, 163);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(246, 247, 250);
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    float: left;
+    margin-bottom: 5px;
+  }
+  #clickMe:hover {
+    border: 2px solid rgb(157, 176, 163);
+    border-radius: 10px;
+    background-color: rgba(124, 130, 140, 0.4);
+    color: rgb(157, 176, 163);
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    float: left;
+    margin-bottom: 5px;
+  }
+  input {
+    border-radius: 5px;
+    background-color: rgb(246, 247, 250);
+  }
+  .iframeSizing {
+    width: 300px;
+    height: 100%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 6%;
+    float:left;
+  }
+  #workoutResults1, #workoutResults2, #workoutResults3 {
+    width: 25%;
+    min-width: 200px;
+    height: 220px;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    border: thin black solid;
+  }
+  #showName {
+    color: rgb(246, 247, 250);
+    margin-top: 80px;
+    padding-bottom: 0px;
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
