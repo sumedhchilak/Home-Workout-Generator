@@ -43,6 +43,7 @@ function formData() {
   }
   // Stores the data as a JSON string being mapped to userData in local storage
   localStorage.setItem('userData', JSON.stringify(user));
+  // other method is called to generate the workout
   genWorkout();
 }
 
@@ -85,6 +86,7 @@ function createWorkoutPage() {
   resultsPage = JSON.parse(localStorage.getItem('workoutData'));
   videos = JSON.parse(localStorage.getItem('workoutVideo'));
   user = JSON.parse(localStorage.getItem('userData'));
+  // Different aspects of the workout page
   doName();
   doResults(resultsPage);
   doVideo(resultsPage, videos);
